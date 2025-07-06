@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-npm",
+  "version": "1.0.0",
+  "description": "belajar nodejs npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mendoanoppah/nodejs-npm.git"
+  },
+  "keywords": [
+    "ioo",
+    "nodejs",
+    "npm"
+  ],
+  "author": "ioo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mendoanoppah/nodejs-npm/issues"
+  },
+  "homepage": "https://github.com/mendoanoppah/nodejs-npm#readme"
+}
