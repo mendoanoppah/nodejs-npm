@@ -2,9 +2,17 @@
   "name": "nodejs-npm",
   "version": "1.0.0",
   "description": "belajar nodejs npm",
-  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./write": "./write.js"
+  },
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prestart": "echo 'before app start' ",
+    "start": "node index.js",
+    "poststart": "echo 'after app start' ",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -17,8 +25,10 @@
   ],
   "author": "ioo",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mendoanoppah/nodejs-npm.git"
+  "home": {
+    "homepage": "https://github.com/mendoanoppah/nodejs-npm.git"
   },
-  "homepage": "https://github.com/mendoanoppah/nodejs-npm#readme"
+  "dependencies": {
+    "lodash": "~4.17.21"
+  }
 }
