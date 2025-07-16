@@ -29,7 +29,8 @@
     "homepage": "https://github.com/mendoanoppah/nodejs-npm.git"
   },
   "dependencies": {
-    "lodash": "~4.17.21"
+    "lodash": "~4.17.21",
+    "ioo-npm": "^1.1.0"
   },
   "devDependencies": {
     "moment": "^2.29.3"
